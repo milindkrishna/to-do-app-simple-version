@@ -23,7 +23,7 @@ function TaskList() {
 
   return (
     <div>
-      <h1>Daily Task List</h1>
+      <h1>Daily Task List Tracker</h1>
       <input type="text" value={taskInput} onChange={handleInputChange} placeholder="Enter task" />
       <button onClick={handleAddTask}>Submit</button>
       <div>
